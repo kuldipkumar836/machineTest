@@ -1,10 +1,74 @@
-<div class="container">
+<div class="header">
+    <div class="humberger">
+       <h4>Admin Panel</h4>
+    </div>
+    <div class="header_controls">
+
+    </div>
+</div>
+<div class="container-fluid">
     <div class="row">
-        <div class="col-md-12 col-11 mx-auto">
-            <h4>List</h4>
+        <div class="col-md-12 col-11 m-auto">
+            <div class="row">
+                <div class="col-md-3 sidebar">
+                </div>
+                <div class="col-md-9 controls">
+                    <div class="row">
+                        <div class="col-md-4 col-11">
+                            <div class="user-count">
+                                <div class="total">
+                                    Total User
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-11">
+                            <div class="user-count">
+                                <div class="total">
+                                    Total Site
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-11">
+                            <div class="user-count">
+                                <div class="total">
+                                    Total Vendors
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="user-list">
+                            <h4> User List </h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th class="sr">Sr.No</th>
+                                    <th class="site_id">SiteId</th>
+                                    <th class="site_name">Site Name</th>
+                                    <th class="date">Effective Date</th>
+                                    <th class="status">Status</th>
+                                </tr>
+                            </thead>
+                            <tbody *ngFor = "let list of lists; let i = index">
+                                <tr>
+                                    <td class="sr">{{i+1}}</td>
+                                    <td class="site_id">{{list.site_id}}</td>
+                                    <td class="site_name">{{list.site_name}}</td>
+                                    <td class="date">{{list.effective_date}}</td>
+                                    <td class="status">{{list.status}}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="row">
+    <!-- <div class="row">
         <div class="col-md-10 col-11 " *ngFor = "let list of lists">
             <div class="card mb-2">
                 <div class="row">
@@ -45,5 +109,5 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </div>
