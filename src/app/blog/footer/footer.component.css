@@ -1,0 +1,47 @@
+img{
+    width: 100px;
+    height: 100px;
+}
+.subscribe{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    margin: 2px auto;
+    padding: 4px 8px;
+    justify-content: space-between;
+    justify-items: center;
+    background-color: #fff200;
+}
+.links{
+    margin: 5pxn 0px;
+    padding: 3px;
+}
+.links ul{
+    list-style: none;
+    display: block;
+}
+.links ul li{
+    margin: 2px;
+    padding: 2px;
+}
+.links ul li a{
+    text-decoration: none;
+    color: #000;
+
+}
+.products h5{
+    width:200px;
+    margin: 5px 2px;
+    border-bottom: 2px solid  #fff200 ;
+}
+.item-pic {
+
+}
+.item-pic img{
+    height: 50px;
+    width: 50px;
+    max-width: 50px;
+    max-height: 50px;
+}
+.footer-widget{
+}
