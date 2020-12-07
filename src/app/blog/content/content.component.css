@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.profile_div{
+    background-color: #f5f6fa;
+    box-shadow: 5px 3px 15px rgba(0, 0, 0, 0.2);
+}
+h4{
+    font-family: 'Mulish', sans-serif;
+}
+.pic img{
+    width: 250px;
+    height: 250px;
+    max-width: 300px;
+    max-height: 300px;
+}
+.pic{
+    margin: 10px;
+}
+.pic_div{
+    padding: 10px;
+}
+
+.blog-control{
+    margin-top: 10px;
+    padding: 10px;
+}
+.bio{
+    margin-top: 10px;
+    padding: 10px;
+}
+.content{
+    position: relative;
+    max-height: 350px;
+    overflow: hidden;
+}
+.income.earning{
+    position: absolute;
+    align-self: start;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.income{
+    margin-top: 30px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+button.btn{
+    outline: yellow;
+    margin: 10px;
+    background-color: #f6e58d;
+    padding: 2px 10px;
+    
+}
+.content.read-more{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    margin: 0px;
+    padding: 3px 5px;
+    background-image: linear-gradient(to bottom, transparent, black);
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.block{
+    height: 70px;
+}
+.my-profile{
+
+}
+.my-blog{
+   
+}
+.likes{
+ 
+}
+.collections{
+ 
+}
+.followers{
+
+}
+.my-Gigs{
+
+}
+.my-nft{
+ 
+}
+.my-stories{
+ 
+}
+
+.work-experience{
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, .2);
+}
+.main{
+    grid-gap: 10px
+}
+.follow{
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, .2);
+    width: 100vh;
+    display: flex;
+    height: 50px;
+}
+.follow ul{
+    list-style: none;
+}
+.follow li{
+    display: inline;
+}
+.follow ul li a{
+    margin: 4px 5px;
+    text-decoration: none;
+    padding: 10px;
+    border: #d6ec11;
+}
+.member{
+
+}
+.members{
+    padding: 30px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+
+}
+.member{
+
+}
+.agency-pic img{
+    width: 150px;
+    height: 150px;
+}
+.insta-feeds{
+    padding: 10px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+.insta-feed{
+    margin: 3px auto;
+    display: flex;
+    gap: 10px;
+}
+.insta-pic img{
+    width: 300px;
+    height: 200px;
+}
+.experience{
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    padding: 10px 5px;
+}
+.education{
+    padding: 10px 5px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+
+}
+img{
+    max-width: 200px;
+}
+.person-info{
+    padding: 10px 5px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.skills{
+}
+.award{
+    padding: 20px 1px;
+}
+.award h4{
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+.award-info{
+    font-size: 12px;
+    font-weight: normal;
+}
+.freelancer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+.freelancer h4{
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+.freelancer ul{
+    list-style: none;
+    margin-top: 10px;
+    color: black;
+}
+.freelancer ul li a{
+    text-decoration: none;
+    color: black;
+}
+.tag{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(4rem, 5rem));
+}
+.tag a{
+    text-decoration: none;
+    color: #000;
+font-size: 1rem;
+line-height: 100%;
+
+}
+.social-links{
+    margin-top: 20px;
+}
+.social-links h4{
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+.small{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 20px 5px;
+}
+.small .btn{
+    margin: 5px;
+    padding: 5px 20px;
+    border: 1px solid black;
+}

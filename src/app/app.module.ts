@@ -4,15 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ReactiveFormsModule } from '@angular/forms';
-import { LoginComponent } from './login/login.component';
 import { HttpClientModule } from '@angular/common/http';
-import { LoginService } from './login.service';
-import { DashboardComponent } from './dashboard/dashboard.component';
+import { BlogComponent } from './blog/blog.component';
+import { ContentComponent } from './blog/content/content.component';
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent,
-    DashboardComponent
+    BlogComponent,
+    ContentComponent,
   ],
   imports: [
     BrowserModule,
@@ -20,7 +19,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     ReactiveFormsModule,
     HttpClientModule,
   ],
-  providers: [LoginService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
