@@ -6,7 +6,16 @@
     background-color: #f5f6fa;
     box-shadow: 5px 3px 15px rgba(0, 0, 0, 0.2);
 }
-h4{
+.dp{
+    position: relative;
+}
+.follow-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #fff200;
+}
+h4 p{
     font-family: 'Mulish', sans-serif;
 }
 .pic img{
